@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an improvement to Crosscheck.
+body:
+  - type: markdown
+    attributes:
+      value: Search existing issues before submitting. Describe the user need before proposing an implementation.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem do you want to solve?
+      description: Describe your current workflow and what gets in the way.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What do you want to be able to do?
+      description: Give an example of the expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds
+      description: Describe what you do today and other approaches you considered.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add mockups, examples, or related issues. Remove private information.
