@@ -1,6 +1,6 @@
 # Crosscheck releases
 
-This repository holds the published builds of Crosscheck, the installer, and the manifest that the app reads to update itself. The source code lives in another repository.
+This repository holds the published builds of Crosscheck, the installer, and the manifest that the app reads to update itself. The source code lives in another repository. The website and the user guide are at https://d0whc3r.github.io/crosscheck-releases/.
 
 ## Install or update
 
