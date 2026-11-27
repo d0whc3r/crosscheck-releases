@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a problem with Crosscheck.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues before submitting. Remove tokens and private code from logs and screenshots. For a suspected vulnerability, follow [SECURITY.md](https://github.com/d0whc3r/crosscheck-releases/security/policy).
+  - type: input
+    id: version
+    attributes:
+      label: App version or source commit
+      description: Include the version or commit you built from.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system and version
+      placeholder: macOS 15, Ubuntu 24.04, or another system
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe how to reach the problem from the start.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the error text and screenshots when useful.
+    validations:
+      required: true
+  - type: textarea
+    id: tools
+    attributes:
+      label: Related tools and logs
+      description: If relevant, include the git, gh, tmux, AI CLI, model, or editor versions and sanitized logs.
