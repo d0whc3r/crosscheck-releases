@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://d0whc3r.github.io/crosscheck-releases/docs/
+    about: Read the guide for setup, reviews, and troubleshooting.
+  - name: Report a vulnerability
+    url: https://github.com/d0whc3r/crosscheck-releases/security/advisories/new
+    about: Report a security problem privately, not in a public issue.
